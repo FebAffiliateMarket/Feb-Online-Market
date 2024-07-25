@@ -25,7 +25,7 @@ app.use(authRoutes);
 
 // Serve the index page
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/public/views/index.html');
+    res.sendFile(__dirname + '/public/views/home.html');
 });
 
 app .get('/signup', (req, res) => {
